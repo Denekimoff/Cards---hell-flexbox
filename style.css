@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.best-work {
+  padding: 50px 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.best-work__title {
+  padding: 0 30px;
+  font-weight: 700;
+  line-height: 46px;
+  font-size: 38px;
+}
+
+.best__work__cards__body {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.cards__row {
+  margin: 0 -10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.cards__column {
+  flex: 0 1 33.333%;
+  padding: 0 23px;
+  display: flex;
+  margin-top: 40px;
+}
+.cards__item {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  border: 1px solid rgba(51, 51, 51, 0.3);
+}
+
+.cards__image img {
+  max-width: 100%;
+}
+.cards__description {
+  flex: 1 1 auto;
+  padding: 0 30px 0 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.cards__title {
+  /* flex: 1 1 auto; */
+  padding-top: 20px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+}
+
+.cards__info {
+  padding: 20px 0;
+  text-align: center;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #21212185;
+}
+
+.cards__price {
+  flex: 0 1 20%;
+  padding: 0 30px 30px 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.cards__actual-price {
+  /* width: 100%; */
+  padding-top: 20px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  border-top: 1px solid rgba(51, 51, 51, 0.2);
+}
+.cards__actual-price p {
+  padding-left: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #21212185;
+}
+.cards__actual-price p span{
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+  color: #FF5900;
+}
+
+.cards__sale-price {
+  flex: 1 1 auto;
+  display: flex;
+}
+
+.cards__sale-price__total {
+  padding-left: 10px;
+}
+
+.total__cost {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #21212185;
+  text-decoration: line-through;
+}
+
+.total__action {
+  font-weight: 500px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #212121;
+}
+.total__action span{
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.cards__more {
+  padding: 10px 0 0 0;
+  flex: 1 1 auto;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+.cards__more a {
+  position: relative;
+  text-align: center;
+  padding-right: 5px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FF5900;
+}
+
+.cards__more__svg {
+  display: flex;
+  align-items: center;
+}
